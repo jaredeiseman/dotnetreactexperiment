@@ -39,6 +39,7 @@ namespace TestReactApp
                 {
                     ProjectPath = Path.Combine(Directory.GetCurrentDirectory(), "Client"),
                     HotModuleReplacement = true,
+                    ReactHotModuleReplacement = true
                 });
                 app.UseDeveloperExceptionPage();
             }

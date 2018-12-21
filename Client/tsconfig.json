@@ -1,11 +1,13 @@
 ﻿{
   "compilerOptions": {
+    "lib": ["es5", "es6", "dom"],
     "outDir": "../wwwroot/dist/",
     "noImplicitAny": true,
     "module": "es6",
     "target": "es5",
     "jsx": "react",
     "moduleResolution": "node",
-    "sourceMap": true
+    "sourceMap": true,
+    "strict": false
   }
 }
